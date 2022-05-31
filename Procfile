@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -Dspring.profiles.active=prod $JAVA_OPTS -jar target/controle-financeiro*.jar 
+//web: java -Dserver.port=$PORT -Dspring.profiles.active=prod $JAVA_OPTS -jar target/controle-servico*.jar 
