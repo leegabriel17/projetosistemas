@@ -8,7 +8,7 @@ CREATE TABLE autor (
 
 INSERT INTO autor ( nome, email, senha) values ( 'Administrador', 'admin@ifsp.edu.br', '$2a$10$X607ZPhQ4EgGNaYKt3n4SONjIv9zc.VMWdEuhCuba7oLAL5IvcL5.');
 INSERT INTO autor ( nome, email, senha) values ( 'Maria Silva', 'maria@ifsp.edu.br', '$2a$10$Zc3w6HyuPOPXamaMhh.PQOXvDnEsadztbfi6/RyZWJDzimE8WQjaq');
-
+INSERT INTO autor ( nome, email, senha) values ( 'Gislaine', 'gislaine@ifsp.edu.br', '$2a$10$1rHoWxZGBIPZlyGl.d5Vju7hwRJ7P.Am/KRy5Dazdx9BBInRHhczi');
 CREATE TABLE permissao (
 	codigo INT PRIMARY KEY,
 	descricao VARCHAR(50) NOT NULL
@@ -44,6 +44,15 @@ INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (1, 6);
 INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (1, 7);
 INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (1, 8);
 
+--gislaine
+INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (3, 1);
+INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (3, 2);
+INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (3, 3);
+INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (3, 4);
+INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (3, 5);
+INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (3, 6);
+INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (3, 7);
+INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (3, 8);
 
 -- maria
 INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (2, 2);
