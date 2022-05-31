@@ -44,7 +44,7 @@ INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (1, 6);
 INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (1, 7);
 INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (1, 8);
 
---gislaine
+-- gislaine
 INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (3, 1);
 INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (3, 2);
 INSERT INTO autor_permissao (codigo_autor, codigo_permissao) values (3, 3);
